@@ -15,3 +15,6 @@ Uma aplicação web responsiva focada na simplicidade, que permite:
 - **Back-end:** Python + Django
 - **Front-end:** HTML, CSS
 - **Banco de Dados:** SQLite
+
+## Como executar
+python manage.py runserver
