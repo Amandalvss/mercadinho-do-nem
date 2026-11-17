@@ -4,3 +4,5 @@ from .models import Cliente, Produto, Venda
 admin.site.register(Cliente)
 admin.site.register(Produto)
 admin.site.register(Venda)
+
+# Ordem de exibicao dos modelos no painel
