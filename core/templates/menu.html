@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercadinho do Nem</title>
+    <style>
+        body { background-color: #0A192F; color: white; font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .card { background-color: #112240; padding: 20px; border-radius: 10px; display: inline-block; margin: 10px; text-decoration: none; color: #00B4D8; border: 1px solid #00B4D8; width: 200px;}
+        .btn-principal { background-color: #00B4D8; color: #0A192F; padding: 15px; font-size: 18px; font-weight: bold; border-radius: 8px; text-decoration: none; display: block; margin: 20px auto; width: 200px;}
+    </style>
+</head>
+<body>
+    <h1>Mercadinho do Nem</h1>
+    <p>Sistema de Gestão</p>
+    <a href="{% url 'nova_venda' %}" class="btn-principal">Nova Venda</a>
+    <div>
+        <a href="#" class="card">Clientes</a>
+        <a href="#" class="card">Fiado</a>
+        <a href="#" class="card">Caixa</a>
+    </div>
+</body>
+</html>
